@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="restart_btn">Restart</string>
+    <string name="welcome">TIC-TAC-TOE</string>
+    <string name="toolResetItem">Reset</string>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <GridLayout
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:columnCount="3"
+            android:layout_marginBottom="20dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:backgroundTint="#B2E6E1"
+                android:textSize="25sp"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="2"
+                android:shadowColor="@color/text_shadow"
+                android:layout_margin="5dp"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:backgroundTint="#B2E6E1"
+                android:shadowRadius="2"
+                android:textSize="25sp"
+                android:id="@+id/btn2"
+                android:onClick="check"
+                android:shadowColor="@color/text_shadow"
+                android:layout_margin="5dp"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_margin="5dp"
+                android:id="@+id/btn3"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:backgroundTint="#B2E6E1"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:textSize="25sp"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_margin="5dp"
+                android:id="@+id/btn4"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="3"
+                android:textSize="25sp"
+                android:shadowDx="3"
+                android:backgroundTint="#B2E6E1"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_margin="5dp"
+                android:id="@+id/btn5"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="3"
+                android:textSize="25sp"
+                android:shadowDx="3"
+                android:backgroundTint="#B2E6E1"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_margin="5dp"
+                android:id="@+id/btn6"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:textSize="25sp"
+                android:backgroundTint="#B2E6E1"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn7"
+                android:onClick="check"
+                android:width="100dp"
+                android:layout_margin="5dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="2"
+                android:textSize="25sp"
+                android:backgroundTint="#B2E6E1"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn8"
+                android:backgroundTint="#B2E6E1"
+                android:onClick="check"
+                android:width="100dp"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn9"
+                android:backgroundTint="#B2E6E1"
+                android:textSize="25sp"
+                android:onClick="check"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/roundbtn"
+                android:layout_margin="5dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="2"
+                tools:ignore="UsingOnClickInXml" />
+
+        </GridLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/restartBtn"
+            android:text="@string/restart_btn"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:onClick="restart"
+            android:layout_marginStart="120dp"
+            tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>
